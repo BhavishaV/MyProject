@@ -1,0 +1,6 @@
+task runRegressionTests(type: Test, description: 'running banner regression tests') {
+    
+    useJUnit {
+        include 'main/java/hello/testcase1.class'
+        }
+}
